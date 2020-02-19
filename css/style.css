@@ -1,13 +1,16 @@
 body{
     background-color: rgb(255, 192, 173);
     background-image: url(images/artdeco2.jfif);
+    background-repeat: round;
 }
 .page-wrapper{
     background-color: rgba(68, 67, 57, 0.849);
+    text-align: left;
     border: 10px groove rgb(255, 212, 92);
     border-image-width: 30%;
-    max-width: 50%;
+    max-width: 45%;
     max-height: 100%;
+    margin: 0 auto;
 }
 h1{
     color: rgb(228, 224, 213);
@@ -25,6 +28,7 @@ h3{
 }
 p{
     color: rgb(228, 224, 213);
+    text-indent: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
@@ -44,5 +48,7 @@ a:active{
 ul{
     content: \2022;
     color: rgb(255, 210, 86);
-   list-style: square;
+    list-style: square;
 }
+
+

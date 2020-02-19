@@ -1,8 +1,48 @@
 body{
     background-color: rgb(255, 192, 173);
+    background-image: url(images/artdeco2.jfif);
 }
-#css-zen-garden{
-    border: 10px solid transparent;
-    padding: 15px;
-  
+.page-wrapper{
+    background-color: rgba(68, 67, 57, 0.849);
+    border: 10px groove rgb(255, 212, 92);
+    border-image-width: 30%;
+    max-width: 50%;
+    max-height: 100%;
+}
+h1{
+    color: rgb(228, 224, 213);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 2px outset rgb(255, 248, 228);
+}
+h2{
+    color: rgb(228, 224, 213);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3{
+    color: rgb(228, 224, 213);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    color: rgb(228, 224, 213);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+a:link{
+    color: rgb(255, 233, 174);
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(255, 215, 104);
+}
+a:hover{
+    color: rgb(255, 197, 37);
+}
+a:active{
+    color: rgb(255, 199, 46);
+}
+ul{
+    content: \2022;
+    color: rgb(255, 210, 86);
+   list-style: square;
 }
